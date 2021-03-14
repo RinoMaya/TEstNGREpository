@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.samsung.knownfailedtestcase.unknownfailedtest"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="shahulhameed"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.samsung.com/in/smartphones/galaxy-f/galaxy-f62-green-128gb-sm-e625fzgdins/buy/"/>
+    <parameter name="username" value="shahulhameed"/>
+    <classes>
+      <class name="org.samsung.pageexecution.BuyingPageExecution">
+        <methods>
+          <include name="Atest"/>
+          <include name="aMeth"/>
+          <include name="meth"/>
+          <include name="exchangeDeviceYesClose"/>
+          <include name="bclass"/>
+          <include name="Aclass"/>
+          <include name="te"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- org.samsung.pageexecution.BuyingPageExecution -->
+      <class name="org.samsung.pageexecution.BuyingPageExecution2">
+        <methods>
+          <include name="aMeth"/>
+          <include name="bclass"/>
+          <include name="Aclass"/>
+          <include name="afterSuite"/>
+          <include name="exchangeDeviceYesClick"/>
+          <include name="Atest"/>
+          <include name="meth"/>
+        </methods>
+      </class> <!-- org.samsung.pageexecution.BuyingPageExecution2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
