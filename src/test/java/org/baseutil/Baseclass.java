@@ -10,6 +10,10 @@ public class Baseclass {
 	
 	
 	protected static WebDriver driver;
+
+	protected static void methd() {
+
+	}
 	protected static void me() {
 		
 	}
