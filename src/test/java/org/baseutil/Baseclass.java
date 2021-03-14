@@ -10,7 +10,9 @@ public class Baseclass {
 	
 	
 	protected static WebDriver driver;
-	
+	protected static void methd() {
+		
+	}
 	public static void browserLaunch(String driverdetail ){
 		switch (driverdetail.toLowerCase()) {
 		case "chrome":
